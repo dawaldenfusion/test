@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: hello-world:nanoserver-ltsc2025
+          image: hello-world:linux
           ports:
             - name: http
               containerPort: 80
